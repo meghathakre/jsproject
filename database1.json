@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "patient_name": "smith",
+      "Number": "3456782313",
+      "payment": 1000000
+    },
+    {
+      "id": "2",
+      "patient_name": "Liam Smith Doe",
+      "Number": "6869453467",
+      "payment": 500000
+    },
+    {
+      "id": "5",
+      "patient_name": "smith",
+      "Number": "4563425178",
+      "payment": 9000000
+    },
+    {
+      "id": " 3",
+      "patient_name": "john doe",
+      "Number": "7879004536",
+      "payment": 700000
+    }
+  ]
+}
