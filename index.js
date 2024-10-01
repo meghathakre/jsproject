@@ -19,6 +19,23 @@ let data = b.map((e)=>`
     
 }
 demo()
+function add(){
+    let frmdata={
+    id:document.getElementById("id").value,
+    patient_name:document.getElementById("patient_name").value,
+    Number:document.getElementById("Number").value,
+    payment :document.getElementById('payment').value
+    }
+    fetch("http://localhost:3000/product",{
+method:"POST",
+headers: {
+    'Content-type':'application/json',
+},
+body: JSON.stringify(frmdata)
+    })
+}
+
+
 
 
 
@@ -62,22 +79,8 @@ function mydelete(a){
     
     
 
-function add(){
-    let frmdata={
-    id:document.getElementById("id").value,
-    patient_name:document.getElementById("patient_name").value,
-    Number:document.getElementById("Number").value,
-    payment :document.getElementById('payment').value
-    }
-    fetch("http://localhost:3000/product",{
-method:"POST",
-headers: {
-    'Content-type':'application/json',
-},
-body: JSON.stringify(frmdata)
-    })
-     
-}
+
+
 
 
 

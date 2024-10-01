@@ -14,15 +14,9 @@
     },
     {
       "id": "5",
-      "patient_name": "smith",
-      "Number": "4563425178",
-      "payment": 9000000
-    },
-    {
-      "id": " 3",
-      "patient_name": "john doe",
-      "Number": "7879004536",
-      "payment": 700000
+      "patient_name": "gunjan",
+      "Number": "7879004530",
+      "payment": "800000"
     }
   ]
 }
